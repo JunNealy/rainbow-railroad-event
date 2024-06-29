@@ -1,0 +1,105 @@
+@use './partials/global' as *;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 2rem 3rem;
+  position: absolute;
+
+  &_icon {
+    max-height: 2rem;
+    max-width: 2rem;
+
+    &:hover {
+      transform: rotate(90 1s);
+    }
+  }
+
+  &_nav {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: flex-end;
+
+    &-list {
+      font-family: 'Berkshire Swash';
+      font-size: 1.25rem;
+      width: 60%;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 2rem;
+    }
+  }
+
+  &_button {
+    color: white;
+    font-family: 'Berkshire Swash';
+    border-radius: 10px;
+    background-color: rgb(239, 105, 77);
+    border: 1px solid rgb(239, 105, 77);
+    padding: 0.5em 1em;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url('../assets/istockphoto-1380166337-1024x1024.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 70vw;
+}
+.hero {
+  max-width: 63.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 7.5rem;
+
+  &_text {
+    margin-top: 2rem;
+    max-width: 40%;
+    &-headline {
+      font-family: 'Berkshire Swash';
+      font-size: 2rem;
+      color: white;
+    }
+
+    &-blurb {
+      max-width: 45ch;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      color: white;
+    }
+  }
+  &_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.65);
+
+    &-headline {
+      margin: 2rem 0;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+    }
+
+    &-text {
+      text-align: center;
+      color: white;
+      max-width: 50ch;
+    }
+  }
+}
