@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
@@ -11,8 +12,8 @@
   position: absolute;
 
   &_icon {
-    max-height: 2rem;
-    max-width: 2rem;
+    max-height: 2.5rem;
+    max-width: 2.5rem;
 
     &:hover {
       transform: rotate(90 1s);
@@ -20,6 +21,7 @@
   }
 
   &_nav {
+    width: 90%;
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -29,12 +31,16 @@
     &-list {
       font-family: 'Berkshire Swash';
       font-size: 1.25rem;
-      width: 60%;
+      width: 100%;
       list-style-type: none;
       display: flex;
+      justify-content: flex-end;
       flex-direction: row;
-      justify-content: space-between;
       margin-right: 2rem;
+
+      &-item {
+        margin-right: 2rem;
+      }
     }
   }
 
@@ -85,7 +91,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+
     width: 40%;
     background-color: rgba(0, 0, 0, 0.65);
 
