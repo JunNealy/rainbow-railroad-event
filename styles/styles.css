@@ -71,30 +71,30 @@ h6 {
 }
 
 @font-face {
-  font-family: "Berkshire Swash";
-  src: url("./assets/BerkshireSwash-Regular.ttf") format("truetype");
+  font-family: 'Berkshire Swash';
+  src: url('./assets/BerkshireSwash-Regular.ttf') format('truetype');
 }
 .test {
-  font-family: "Berkshire Swash";
+  font-family: 'Berkshire Swash';
 }
 
 @font-face {
-  font-family: "Berkshire Swash";
-  src: url("./assets/BerkshireSwash-Regular.ttf") format("truetype");
+  font-family: 'Berkshire Swash';
+  src: url('./assets/BerkshireSwash-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: "Poppins";
-  src: url("../../assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 @font-face {
-  font-family: "Poppins";
-  src: url("../../assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }
 @font-face {
-  font-family: "Poppins";
-  src: url("../../assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: 800;
 }
 .header {
@@ -124,7 +124,7 @@ h6 {
   justify-content: flex-end;
 }
 .header_nav-list {
-  font-family: "Berkshire Swash";
+  font-family: 'Berkshire Swash';
   font-size: 1.25rem;
   width: 100%;
   list-style-type: none;
@@ -145,7 +145,7 @@ h6 {
 }
 .header_button {
   color: white;
-  font-family: "Berkshire Swash";
+  font-family: 'Berkshire Swash';
   border-radius: 10px;
   background-color: rgb(239, 105, 77);
   border: 5px solid rgb(239, 105, 77);
@@ -162,7 +162,7 @@ h6 {
 .main {
   display: flex;
   justify-content: center;
-  background-image: url("../assets/istockphoto-1380166337-1024x1024.jpg");
+  background-image: url('../assets/istockphoto-1380166337-1024x1024.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ h6 {
 }
 
 .hero {
-  max-width: 63.75rem;
+  max-width: 1280px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -180,10 +180,10 @@ h6 {
 }
 .hero_text {
   margin-top: 2rem;
-  max-width: 30%;
+  max-width: 50%;
 }
 .hero_text-headline {
-  font-family: "Berkshire Swash";
+  font-family: 'Berkshire Swash';
   font-size: 2rem;
   color: white;
 }
@@ -210,4 +210,94 @@ h6 {
   text-align: center;
   color: white;
   max-width: 50ch;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 50ch;
+}
+
+.ribbon {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  max-width: 50ch;
+}
+
+.ribbon h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.ribbon::before,
+.ribbon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+
+.ribbon::before {
+  left: -20px;
+  border-right-color: #007bff;
+}
+
+.ribbon::after {
+  right: -20px;
+  border-left-color: #007bff;
+}
+
+.card-content {
+  display: none;
+  padding: 20px;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .ribbon {
+    padding: 8px;
+  }
+
+  .ribbon h2 {
+    font-size: 16px;
+  }
+}
