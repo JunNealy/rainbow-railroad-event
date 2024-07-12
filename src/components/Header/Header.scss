@@ -1,0 +1,25 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.header {
+  @include flex(row, center, center);
+  width: 100%;
+  height: 10%;
+  background-color: $header;
+  padding: $mobile-side-pad;
+
+  &__logo {
+  }
+
+  &__nav {
+    &-list {
+      display: none;
+
+      @include flex(row, center, center);
+      &-item {
+      }
+    }
+  }
+}
