@@ -4,12 +4,5 @@
 @use '../../styles/partials/mixins' as *;
 
 .content {
-  width: 100%;
-  color: $white;
-  background-color: black;
-  height: 100vh;
-  background-image: url('../../assets/backgroundimg.png');
-  background-position: center;
-  background-size: cover;
   padding: $mobile-side-pad;
 }

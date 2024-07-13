@@ -1,0 +1,17 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.about {
+  &__title {
+    margin-bottom: $medium-after-margin;
+    @include article-header;
+  }
+  &__paragraph {
+    max-width: 60ch;
+    font-size: 1rem;
+    margin-bottom: $medium-after-margin;
+    line-height: 1.5rem;
+  }
+}

@@ -21,3 +21,11 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+// ------------------------------ //
+// Print
+// ------------------------------ //
+
+@mixin article-header {
+  font-size: 1.5rem;
+}

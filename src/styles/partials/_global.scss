@@ -3,6 +3,10 @@
 // ------------- //
 // Resets //
 // ------------- //
+:root {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -16,7 +20,7 @@
 
 body {
   list-style-type: none;
-  font-family: 'Poppins';
+  font-family: 'Sen';
   width: 100vw;
   overflow-x: hidden;
   line-height: 1.5;

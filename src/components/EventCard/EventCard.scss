@@ -1,0 +1,93 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.ribbon {
+  background-color: $header;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.ribbon h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.ribbon::before,
+.ribbon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+
+.ribbon::before {
+  left: -20px;
+  border-right-color: $header;
+}
+
+.ribbon::after {
+  right: -20px;
+  border-left-color: $header;
+}
+
+.card-content {
+  display: none;
+  padding: 20px;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.card-content.open {
+  display: block;
+  max-height: fit-content;
+  padding: 20px;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .ribbon {
+    padding: 8px;
+  }
+
+  .ribbon h2 {
+    font-size: 16px;
+  }
+}
