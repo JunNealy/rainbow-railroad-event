@@ -1,3 +1,4 @@
+import CallToAction from '../CTA/CallToAction';
 import './About.scss';
 
 const About = () => {
@@ -30,6 +31,7 @@ const About = () => {
         cause as an entry fee, but shareable appetizers will be provided at
         Storm Crow, so there will be no other costs associated.
       </p>
+      <CallToAction />
     </article>
   );
 };

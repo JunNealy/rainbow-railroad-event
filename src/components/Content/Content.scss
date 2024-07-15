@@ -4,5 +4,14 @@
 @use '../../styles/partials/mixins' as *;
 
 .content {
+  width: 100%;
   padding: $mobile-side-pad;
+  @include flex(column, center, center);
+  @include tablet {
+    padding: $tablet-side-pad;
+  }
+
+  @include desktop {
+    @include flex(row, center, flex-start);
+  }
 }

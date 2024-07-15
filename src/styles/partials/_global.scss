@@ -1,10 +1,13 @@
-@use './typography' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
 
 // ------------- //
 // Resets //
 // ------------- //
 :root {
   scroll-behavior: smooth;
+  scroll-padding: $header-offset + 1rem;
 }
 
 *,

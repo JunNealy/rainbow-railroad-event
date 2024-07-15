@@ -1,15 +1,13 @@
-import logo from '../../assets/copu-dice-d20rainbow.png';
-
 import './Header.scss';
 
 const Header = () => {
   return (
     <div className="header">
-      <a href="#about">
-        <button className="header__button">About</button>
+      <a className="header__link" href="#about">
+        <button className="header__link-button">About</button>
       </a>
-      <a href="#events">
-        <button className="header__button">Events</button>
+      <a className="header__link" href="#events">
+        <button className="header__link-button">Events</button>
       </a>
     </div>
   );

@@ -4,6 +4,7 @@
 @use '../../styles/partials/mixins' as *;
 
 .hero {
+  margin-top: $header-offset;
   width: 100%;
   height: 30vh;
   color: $white;
@@ -12,11 +13,18 @@
   background-position: center;
   background-size: cover;
   padding: 2rem $mobile-side-pad;
+  @include flex(column, center, center);
+
+  @include tablet {
+    padding: $tablet-side-pad;
+  }
 
   &__title {
+    text-align: left;
     font-family: Berkshire Swash;
     font-size: 2.5rem;
     margin-bottom: $medium-after-margin;
+    @include hero-title;
   }
 
   &__tagline {

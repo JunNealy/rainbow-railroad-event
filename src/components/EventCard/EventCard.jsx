@@ -1,4 +1,5 @@
 import './EventCard.scss';
+import CallToAction from '../CTA/CallToAction';
 import { useState } from 'react';
 const EventCard = ({
   dmName,
@@ -28,6 +29,7 @@ const EventCard = ({
             <strong>Players:</strong> {playerCount}
           </p>
           <p>{campaignSetting}</p>
+          <CallToAction />
         </div>
       </div>
     </div>

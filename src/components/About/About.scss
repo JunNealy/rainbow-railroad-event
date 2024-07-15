@@ -4,14 +4,25 @@
 @use '../../styles/partials/mixins' as *;
 
 .about {
+  margin-bottom: $large-after-margin;
+
+  @include desktop {
+    position: sticky;
+    top: $header-offset + 1rem;
+    margin-right: 5rem;
+  }
   &__title {
     margin-bottom: $medium-after-margin;
     @include article-header;
   }
   &__paragraph {
-    max-width: 60ch;
+    max-width: 75ch;
     font-size: 1rem;
     margin-bottom: $medium-after-margin;
     line-height: 1.5rem;
+  }
+
+  @include desktop {
+    max-width: 45%;
   }
 }
