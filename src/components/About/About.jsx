@@ -20,7 +20,7 @@ const About = () => {
       <p className="about__paragraph">
         On August 18th and September 15th, we will be working with Storm Crow
         Manor <a href="https://www.stormcrow.com">https://www.stormcrow.com.</a>
-        (/) to host a series of DnD one shots, with participants registering by
+        to host a series of DnD one shots, with participants registering by
         paying an entry fee which will go towards Julie's fundraising goal.
         Storm Crow will also be mixing up a specialty cocktail just for our
         event and donating $1 per sale to Julie's case.
