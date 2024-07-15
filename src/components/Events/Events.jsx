@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import EventCard from '../EventCard/EventCard';
 import eventData from '../../data/eventData';
+import './Events.scss';
 
 const EventList = () => {
   return (
-    <div id="events" className="container">
-      <h2>Event Information</h2>
+    <div id="events" className="event-list">
+      <h2 className="event-list__title">Event Information</h2>
       {Object.entries(eventData).map(([date, events], index) => (
         <EventGroup key={index} date={date} events={events} />
       ))}
@@ -25,7 +26,7 @@ const EventGroup = ({ date, events }) => {
       <div className="event-date" onClick={toggleGroup}>
         <h2>{date}</h2>
       </div>
-      <div className={`event-cards ${isOpen ? 'open' : ''}`}>
+      <div className={`event-group__cards ${isOpen ? 'open' : ''}`}>
         {events.map((event, index) => (
           <EventCard
             key={index}

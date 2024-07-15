@@ -4,12 +4,13 @@
 @use '../../styles/partials/mixins' as *;
 
 .card {
+  @include flex(column, center, center);
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: $large-after-margin;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  min-width: 100%;
+  width: 100%;
 }
 
 .ribbon {

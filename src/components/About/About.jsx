@@ -8,11 +8,11 @@ const About = () => {
       <p className="about__paragraph">
         Hi! We're a resettlement team working with Rainbow Railroad to help
         resettle Julie Red-Collins, a Ugandan trans woman fleeing to Canada
-        later this year. Learn more about rainbow railroad at
+        later this year. Learn more about rainbow railroad at{' '}
         <a href="https://www.rainbowrailroad.org/">
           https://www.rainbowrailroad.org/
         </a>{' '}
-        and Julie's case at
+        and Julie's case at{' '}
         <a href="https://donate.rainbowrailroad.org/team/515983.">
           https://donate.rainbowrailroad.org/team/515983.
         </a>

@@ -7,11 +7,14 @@
   width: 100%;
   padding: $mobile-side-pad;
   @include flex(column, center, center);
+
+  max-width: 79.25rem;
   @include tablet {
     padding: $tablet-side-pad;
   }
 
   @include desktop {
     @include flex(row, center, flex-start);
+    margin: 0 auto;
   }
 }

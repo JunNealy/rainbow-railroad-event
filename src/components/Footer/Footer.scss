@@ -1,0 +1,18 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.footer {
+  width: 100%;
+  background-color: $header;
+  color: white;
+  padding: 1rem;
+  &__partnership {
+    &-logo {
+      width: 50%;
+      max-width: 15.625rem;
+      height: auto;
+    }
+  }
+}

@@ -4,27 +4,39 @@
 @use '../../styles/partials/mixins' as *;
 
 .header {
-  @include flex(row, space-between, center);
+  @include flex(column, space-between, center);
   width: 100%;
   background-color: $header;
   position: fixed;
   top: 0;
+  z-index: 500;
 
-  &__link {
-    width: 100%;
+  &__logo {
+    margin-top: 1rem;
+    width: 65%;
+    height: auto;
+  }
+
+  &__links {
     @include flex(row, center, center);
-    &-button {
-      color: $white;
-      padding: 1rem;
-      background: none;
-      border: 4px solid transparent;
+    width: 100%;
+    &-link {
       width: 100%;
-      height: 100%;
-      @include flex(row, center, center);
-      text-align: center;
+      text-decoration: none;
 
-      &:hover {
-        border-bottom: 4px solid $accent;
+      &-button {
+        color: $white;
+        padding: 1rem;
+        background: none;
+        border: 4px solid transparent;
+        width: 100%;
+        height: 100%;
+        @include flex(row, center, center);
+        text-align: center;
+
+        &:hover {
+          border-bottom: 4px solid $accent;
+        }
       }
     }
   }
