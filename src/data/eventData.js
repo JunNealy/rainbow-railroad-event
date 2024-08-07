@@ -19,13 +19,13 @@ const eventData = {
         'Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and Eiselcross. General type of content to be expected and recommended experience level of players: They are no heavy TW for this one, and anything that is borderline I will explain properly or omit depending on how the group feels. This is fully introductory, I am going to focus on base game play mechanics, and try to immerse players in the story and roleplay aspects. People who have never played DnD are welcomed.',
     },
     {
-      dmName: 'AJ Comeaux (any/all)',
+      dmName: 'Chorale Getchell (She/They)',
       dmInfo:
-        'Happy players have described AJ as warm, friendly, and inviting. Their enemies leave no report. Sun/Moon Sagittarius, Goblin Rising. Helping charities doing real activism is praxis, so do your part! I also follow the Rule of Cool.',
-      campaignName: 'All Aboard Engine 709!',
+        'Hi, my name's Chorale and I'm super excited to be here! As a trans woman myself, I'm really happy to be donating my time to the Rainbow Railroad's cause and specifically to Julie's case. I understand too well the state of minority and danger that a lot of transgender people in the world face and I want to do what I can in order to help. I love D&D because not only is it extremely fun, but in playing it you can accidentally learn a lot about yourself. I would have to say my style as a GM is largely improvisational. I love it when my players succeed as much as I love it when my players fail, and can use both instances to drive the story forward. Nothing frustrates me more as a GM than seeing my players mired in failure with no way forward. I hope you're as excited about this event as I am, and I hope to see you at my table!',
+      campaignName: 'Ritual at Nokborh Temple',
       playerCount: '3-6 players (4-5 recommended)',
       campaignSetting:
-        "Level 10, all levels of experience welcome Genre: Slice of life in a fantasy sandbox Stakes: Low Roll your own or a character will be provided. Your party of experienced adventurers are taking some time off for well-deserved rest, and you hear about this fabulous carnival that's come to town that can make your dreams a reality. Sensing a fun time, you check out the lonely tent in a field outside town....",
+        " Something dark is stirring within the depths of the Endless Forest. Will our heroes uncover the threat and intervene in time, or will the Ritual beneath Nokborh Temple be completed and an army of the Abyss be unleashed upon the world? Level 10, all levels of experience welcome",
     },
   ],
   'September 15': [
