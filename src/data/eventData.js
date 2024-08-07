@@ -20,12 +20,10 @@ const eventData = {
     },
     {
       dmName: 'Chorale Getchell (She/They)',
-      dmInfo:
-        'Hi, my name's Chorale and I'm super excited to be here! As a trans woman myself, I'm really happy to be donating my time to the Rainbow Railroad's cause and specifically to Julie's case. I understand too well the state of minority and danger that a lot of transgender people in the world face and I want to do what I can in order to help. I love D&D because not only is it extremely fun, but in playing it you can accidentally learn a lot about yourself. I would have to say my style as a GM is largely improvisational. I love it when my players succeed as much as I love it when my players fail, and can use both instances to drive the story forward. Nothing frustrates me more as a GM than seeing my players mired in failure with no way forward. I hope you're as excited about this event as I am, and I hope to see you at my table!',
+      dmInfo: `Hi, my name's Chorale and I'm super excited to be here! As a trans woman myself, I'm really happy to be donating my time to the Rainbow Railroad's cause and specifically to Julie's case. I understand too well the state of minority and danger that a lot of transgender people in the world face and I want to do what I can in order to help. I love D&D because not only is it extremely fun, but in playing it you can accidentally learn a lot about yourself. I would have to say my style as a GM is largely improvisational. I love it when my players succeed as much as I love it when my players fail, and can use both instances to drive the story forward. Nothing frustrates me more as a GM than seeing my players mired in failure with no way forward. I hope you're as excited about this event as I am, and I hope to see you at my table!`,
       campaignName: 'Ritual at Nokborh Temple',
       playerCount: '3-6 players (4-5 recommended)',
-      campaignSetting:
-        " Something dark is stirring within the depths of the Endless Forest. Will our heroes uncover the threat and intervene in time, or will the Ritual beneath Nokborh Temple be completed and an army of the Abyss be unleashed upon the world? Level 10, all levels of experience welcome",
+      campaignSetting: `Something dark is stirring within the depths of the Endless Forest. Will our heroes uncover the threat and intervene in time, or will the Ritual beneath Nokborh Temple be completed and an army of the Abyss be unleashed upon the world? Level 10, all levels of experience welcome`,
     },
   ],
   'September 15': [
